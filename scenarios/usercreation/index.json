@@ -6,9 +6,10 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1",
+                "title": "User Creation",
                 "text": "step1.md"
-            }
+             }
+            
         ],
         "intro": {
             "text": "intro.md"
