@@ -5,7 +5,7 @@ User Creation
   * username
   * home directory of the user
 
-* First lets find out what is the user which we are logged in as `whomai`{{execute}}
+* First lets find out what is the user which we are logged in as `whoami`{{execute}}
   
 * Explore the ```/etc/passwd``` file the first entry in this file will be root user
 `head -n 5 /etc/passwd`{{execute}}
@@ -18,7 +18,7 @@ User Creation
 
 `cat /etc/passwd`{{execute}}
 
-* For the specific line with the ironman information `tail -n 1 /etc/passwd`
+* For the specific line with the ironman information `tail -n 1 /etc/passwd`{{execute}}
 * Compare the content with the following pattern
 ```
 username:x:UID:GID:User Home Directory: User Bash Type
